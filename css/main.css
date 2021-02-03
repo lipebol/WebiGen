@@ -1,0 +1,358 @@
+                                                        /* PRE CONFIGURATION */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    resize: none;
+}
+                                                        /* BODY */
+body {
+    font: 15px/1.5 'Poppins', sans-serif;
+    background: #cbdbd7;
+}
+                                                        /* GLOBAL */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.highlight {
+    color: #f24405;
+}
+.highlight:hover {
+    color: #cbdbd7;
+}
+
+.button {
+    font-size: 1.1em;
+    background: #f24405;
+    padding: 10px 30px;
+    color: #cbdbd7;
+    letter-spacing: 2px;
+    font-weight: 800;
+    border-radius: 10px;
+    transition: 0.2s;
+    text-shadow: 2px 2px 4px black;
+}
+
+.background {
+    padding: 15px;
+    background: #193441;
+    color: #cbdbd7;
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px black;
+    font-weight: 400;
+}
+                                                        /* HEADER */
+header {
+    background: #193441;
+    color: #cbdbd7;
+    padding-top: 30px;
+    min-height: 70px;
+    border-top: 2px solid #f21905;
+    border-bottom: 3px solid #f24405;
+    text-shadow: 2px 2px 4px black;
+}
+
+header a {
+    color: #cbdbd7;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header a:hover {
+    color: #f24405;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px;
+}
+
+header #logo {
+    float: left;
+    cursor: pointer;
+}
+
+header nav {
+    float: right;
+    margin: 30px;
+}
+                                                        /* SHOWCASE */
+#showcase {
+    min-height: 400px;
+    background: url('../images/Foto\ de\ Startup\ Stock\ Photos\ no\ Pexels.jpg') no-repeat -500px -320px;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    /*border-bottom: 3px solid #f24405;*/
+}
+
+#showcase h1 {
+    color: #193441;
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+#showcase h1 .highlight:hover {
+    color: #fcfff5;
+}
+
+#showcase p {
+    color: #f24405;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+#showcase p span {
+    color: #cbdbd7;
+}
+
+/*.overlay {
+    position: absolute;
+    width: 100%;
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-position: -500px -320px;
+    background: #91aab4;
+    mix-blend-mode: overlay;
+}*/
+
+#showcase .button:hover {
+    background: #193441;
+    color: #f24405;
+    letter-spacing: 6px;
+}
+                                                        /* NEWSLETTER */
+#newsletter {
+    padding: 15px;
+    background: #193441;
+    color: #cbdbd7;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+    /*border-bottom: 3px solid #f24405;*/
+}
+
+#subscribe {
+    float: left;
+}
+
+#newsletter h1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#newsletter form {
+    float: right;
+    margin-top: 30px;
+    text-shadow: 2px 2px 4px black;
+}
+
+#newsletter input[type="email"] {
+    padding: 10px;
+    width: 400px;
+    margin-right: 5px;
+    background: #cbdbd7;
+    border: 0;
+    border-radius: 10px;
+}
+
+#newsletter button {
+    font-size: 1.1em;
+    background: #cbdbd7;
+    padding: 10px 30px;
+    color: #f24405;
+    letter-spacing: 2px;
+    font-weight: 800;
+    border: 0;
+    border-radius: 10px;
+    transition: 0.2s;
+    text-shadow: 1px 1px 2px black;
+}
+
+#newsletter button:hover {
+    background: #f24405;
+    color: #193441;
+    cursor: pointer;
+}
+                                                        /* BOXES */
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .box {
+    float: left;
+    text-align: center;
+    width: 33%;
+    padding: 10px;
+}
+
+#boxes .box img {
+    width: 120px;
+}
+
+#boxes .box p {
+    text-align: justify;
+}
+                                                        /* ARTICLE */
+#main-col {
+    float: left;
+    width: 60%;
+    color: #193441;
+    text-align: justify;
+}
+
+#main-col h1 {
+    font-size: 45px;
+    font-weight: 800;
+}
+                                                        /* SERVICES */
+#services li {
+    padding: 20px;
+    border: #193441 solid 2px;
+    border-radius: 10px;
+}
+
+#services h3 {
+    font-size: 25px;
+}
+
+#services h4 {
+    color: #f21905;
+    font-size: 18px;
+}
+                                                        /* FORM */
+.quote div {
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.quote input {
+    width: 100%;
+    padding: 5px;
+}
+
+.quote textarea {
+    width: 100%;
+    height: 145px;
+    padding: 5px;
+}
+
+.quote p {
+    font-size: 8px;
+}
+
+.quote a {
+    margin-left: 10px;
+}
+                                                        /* SIDEBAR */
+#sidebar {
+    float:right;
+    width: 33%;
+    text-align: justify;
+    margin-top: 3%;
+}
+
+#sidebar h3 {
+    margin: 5px;
+    padding: 5px;
+    font-size: 25px;
+    text-align: center;
+}
+                                                        /* SOCIAL */
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.social li a {
+    display: inline-block;
+    filter: invert(1);
+    transform: scale(0.8);
+    transition: 0.5s;
+}
+.social li a:hover {
+    transform: scale(0.8) translateY(-20px);
+}
+
+.social li a img {
+    margin-right: 50px;
+}
+                                                        /* FOOTER */
+footer {
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+    background-color: #193441;
+    color: #cbdbd7;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px black;
+}
+.footer{
+    padding: 5px;
+    margin-top: 60px;
+}
+
+
+                                                        /* MEDIA QUERIES */
+
+@media (max-width: 1180px) {
+    #showcase {
+        min-height: 400px;
+        background: url('../images/Foto\ de\ Startup\ Stock\ Photos\ no\ Pexels.jpg') no-repeat -800px -320px;
+    }
+
+    #showcase h1 {
+        margin-top: 80px;
+    }
+
+    #subscribe {
+        float: none;
+        text-align: center;
+        width: 90%;
+    }
+}
+
+@media (max-width: 891px) {
+    header li, header #logo,
+    header nav, #subscribe, 
+    #newsletter form, #boxes .box, 
+    #main-col, #sidebar {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    #showcase {
+        min-height: 400px;
+        background: url('../images/Foto\ de\ Startup\ Stock\ Photos\ no\ Pexels.jpg') no-repeat -1100px -320px;
+    }
+
+    #showcase h1 {
+        margin-top: 60px;
+    }
+
+    #newsletter input[type="email"] {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    #newsletter button {
+        display: block;
+        width: 100%;
+    }
+
+    #sidebar {
+        margin-top: 5px;
+        margin-bottom: 60px;
+    }
+}
